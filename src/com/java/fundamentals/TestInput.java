@@ -92,6 +92,34 @@ public class TestInput {
         System.out.println("mobileNumber = " + mobileNumber);
         System.out.println("bankAccountNumber = " + bankAccountNumber);
         System.out.println("electricityBillNumber = " + electricityBillNumber);
+        System.out.println();
+
+        float bankBalance;
+        System.out.println("Enter bankBalance: ");
+        bankBalance = sc.nextFloat();
+
+        boolean isAccountActive, isInternetAvailable;
+        System.out.print("Is account active (true/false): ");
+        isAccountActive = sc.nextBoolean();
+
+        System.out.print("Is internet available (true/false): ");
+        isInternetAvailable = sc.nextBoolean();
+
+        System.out.println("isAccountActive = " + isAccountActive);
+        System.out.println("isInternetAvailable = " + isInternetAvailable);
+        double yearlyIncome, loanAmount;
+
+        System.out.print("Enter yearlyIncome (double): ");
+        yearlyIncome = sc.nextDouble();
+
+        System.out.print("Enter loanAmount (double): ");
+        loanAmount = sc.nextDouble();
+
+        System.out.println("yearlyIncome = " + yearlyIncome);
+        System.out.println("loanAmount = " + loanAmount);
+
+        System.out.println();
+
 
         sc.close();
     }
